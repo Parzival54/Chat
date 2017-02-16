@@ -1,0 +1,111 @@
+#fenetre {
+    width: 300px;
+    height: 500px;
+    border-radius: 5px;
+}
+
+#message {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    height : 50px;
+    border-radius: 5px;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#chat {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+button {
+    display: inline-block;
+    margin-left: 60px;
+    width: 110px;
+}
+
+#envoyer {
+    cursor : not-allowed;
+}
+
+#texte {
+    color: red;
+    text-align: center;
+    width: 300px;
+    padding-bottom: 10px;
+}
+
+label {
+    margin-left: 50px;
+}
+
+#user {
+    width: 180px;
+    height : 10px;
+    padding : 5px;
+}
+
+.pub {
+    position: absolute;
+    top: 50px;
+    left : 380px;
+    cursor: pointer;
+    box-shadow: 1px 1px 12px #555;
+}
+
+.pubgrande {
+    position: absolute;
+    top: 50px;
+    left : 580px;
+    display: none;
+    box-shadow: 1px 1px 12px #555;
+}
+
+.modif {
+    display: flex;
+    flex-direction: row;
+}
+
+#modif {
+    width : 300px;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    border: 1px grey solid;
+    border-radius: 5px;
+    background-color: #cccccc;
+    box-shadow: 1px 1px 12px #555;
+}
+
+#screen {
+    width: 140px;
+    margin-bottom: 10px;
+}
+
+#police {
+    width: 140px;
+    margin-bottom: 10px;
+}
+
+#couleur {
+    width: 140px;
+    margin-bottom: 10px;
+}
+
+#horloge {
+    position: fixed;
+    top : 10px;
+}
